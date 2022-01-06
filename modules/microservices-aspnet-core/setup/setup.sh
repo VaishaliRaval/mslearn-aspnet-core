@@ -18,8 +18,8 @@ declare -x dotnetSdkVersion="6.0.1"
 declare moduleName="microservices-aspnet-core"
 
 # Any other declarations we need
-declare -x gitBranch="live"
-declare initScript=https://github.com/VaishaliRaval/mslearn-aspnet-core/blob/$gitBranch/infrastructure/scripts/initenvironment.sh
+declare -x gitBranch="release-mslearn-microservice-net-6"
+declare initScript=https://raw.githubusercontent.com/VaishaliRaval/mslearn-aspnet-core/$gitBranch/modules/microservices-aspnet-core/setup/setup.sh
 declare suppressAzureResources=true
 declare rootLocation=~/clouddrive
 declare editorHomeLocation=$rootLocation/aspnet-learn/src
